@@ -1,0 +1,39 @@
+{
+  "name": "Bot_Builder_Simplified_Echo_Bot_V4",
+  "description": "",
+  "services": [
+    {
+      "type": "endpoint",
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:52717/api/messages",
+      "id": "1",
+      "name": "development"
+    },
+    {
+      "type": "endpoint",
+      "appId": "Fill-out",
+      "appPassword": "Fill-out",
+      "endpoint": "Fill-out",
+      "id": "2",
+      "name": "production"
+    },
+    {
+      "type": "qna",
+      "id": "3",
+
+
+      "name": "GitHubEnterpriseFAQ",
+      "kbId": "Fill-out",
+      "subscriptionKey": "Fill-out",
+      "endpointKey": "Fill-out",
+      "hostname": "https://fillout.azurewebsites.net/qnamaker"
+
+
+    }
+  ],
+  "padlock": "",
+  "version": "2.0",
+  "path": "C:\\Github\\2019ITBot\\MultiDialogsWithAccessorBotV4\\BotConfiguration.bot",
+  "overrides": null
+}
